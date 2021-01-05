@@ -17,7 +17,7 @@ _이전 스터디 저장소 - [주라주라 스터디](https://github.com/guswns
 - 21.01.04(월) ~ 21.02.21(일)
 
 | 참여자 | 1주 차 | 2주 차 | 3주 차 | 4주 차 | 5주 차 | 6주 차 | 7주 차 | 참석률 |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | [제이 beginin15](https://github.com/beginin15) |:white_check_mark:||||||| 14.29% |
 | [솔라 blossun](https://github.com/blossun) |:white_check_mark:||||||| 14.29% |
 | [에버 hsik0225](https://github.com/hsik0225) |:white_check_mark:||||||| 14.29% |
