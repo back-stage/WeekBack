@@ -4,17 +4,27 @@
 
 > 세상에... 나쁜... 개발자는... 없다...!
 
-**변화의 기록을 통해 동료와 함께 성장하는 주간 계획 모임**
+### **변화의 기록을 통해 동료와 함께 성장하는 주간 계획 모임**
 
-_이전 기수 저장소 - [주라주라 스터디](https://github.com/guswns1659/JuraJura)_
+<br>
 
----
+_이전 스터디 저장소 - [주라주라 스터디](https://github.com/guswns1659/JuraJura)_
+
+<br>
 
 ### 1기
 
-- 21.01.04(월) ~ 21.02.22(금)
+- 21.01.04(월) ~ 21.02.22(월)
 
----
+| 참여자 | 1주 차 | 2주 차 | 3주 차 | 4주 차 | 5주 차 | 6주 차 | 7주 차 | 8주 차 | 참석률 |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| [제이 beginin15](https://github.com/beginin15) |:white_check_mark:|||||||| 12.5% |
+| [솔라 blossun](https://github.com/blossun) |:white_check_mark:|||||||| 12.5% |
+| [에버 hsik0225](https://github.com/hsik0225) |:white_check_mark:|||||||| 12.5% |
+| [푸글 suhyunsim](https://github.com/suhyunsim) |:white_check_mark:|||||||| 12.5% |
+| [레나 dev-Lena](https://github.com/dev-Lena) |:white_check_mark:|||||||| 12.5% |
+
+<br>
 
 ## 📃Rules
 
@@ -23,11 +33,15 @@ _이전 기수 저장소 - [주라주라 스터디](https://github.com/guswns165
 - 오프라인: X (코로나로 인해 원격 진행)
 - 온라인: 매주 (월) 11시 - 슬랙 채널에 공유한 링크
 
+<br>
+
 ### 📝진행
 
 - 주간 리더: 솔라 → 에버 → 제이 → 푸글 → 레나 → ...
 - 목표 설정 마감일: ~ 매주 (월)
 - 목표 수정 마감일: ~ 매주 (수)
+
+<br>
 
 ### 💻Pull Request & Issue
 
@@ -44,6 +58,8 @@ _이전 기수 저장소 - [주라주라 스터디](https://github.com/guswns165
 - 지정된 Reviewer가 피드백 후 PR Merge
 - 주간 리더가 이슈 닫기
 
+<br>
+
 ### 💥벌칙 & 벌금
 
 - 벌금 관리 spread sheet & `README.md` 파일에 간단 작성
@@ -59,11 +75,15 @@ _이전 기수 저장소 - [주라주라 스터디](https://github.com/guswns165
 - 벌칙
     - 목표 미달성 시 그 다음 주까지 일일 회고 PR comment 4개 달기(개인 TIL 링크, 회고 등 자유양식)
 
+<br>
+
 ### 👣회고
 
 - 기수 회고
     - 매 기수 시작 시 개인 목표 공유
     - 매 기수 마감 시 전체 회고
+
+<br>
 
 ### 🙆대화 수칙
 
@@ -71,12 +91,16 @@ _이전 기수 저장소 - [주라주라 스터디](https://github.com/guswns165
 - 우린 '경청'을 노력하며, '피드백'을 환영합니다.
 - 우린 누구나 자유롭게 의견을 낼 수 있지만 '나만 정답이다'라는 태도를 지양합니다.
 
+<br>
+
 ### 📑Convention
 
 - 브랜치 - github 아이디
 - 폴더 구조
     - n기 (ex. `1th`)
         - n주 차 (ex. `week_1`)
+
+<br>
 
 ### 👥Contributors
 
