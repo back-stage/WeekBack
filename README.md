@@ -1,6 +1,6 @@
 # WeekBack - Weekly + FeedBack
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-3-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 ~~로고 이미지~~
@@ -122,6 +122,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
   <tr>
     <td align="center"><a href="https://github.com/suhyunsim"><img src="https://avatars3.githubusercontent.com/u/58318786?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Poogle</b></sub></a><br /><a href="https://github.com/back-stage/WeekBack/commits?author=suhyunsim" title="Documentation">📖</a> <a href="https://github.com/back-stage/WeekBack/pulls?q=is%3Apr+reviewed-by%3Asuhyunsim" title="Reviewed Pull Requests">👀</a></td>
     <td align="center"><a href="https://blossun.github.io"><img src="https://avatars0.githubusercontent.com/u/35985636?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Solar</b></sub></a><br /><a href="https://github.com/back-stage/WeekBack/pulls?q=is%3Apr+reviewed-by%3Ablossun" title="Reviewed Pull Requests">👀</a></td>
+    <td align="center"><a href="https://github.com/beginin15"><img src="https://avatars2.githubusercontent.com/u/33659848?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Jay</b></sub></a><br /><a href="https://github.com/back-stage/WeekBack/pulls?q=is%3Apr+reviewed-by%3Abeginin15" title="Reviewed Pull Requests">👀</a></td>
   </tr>
 </table>
 
