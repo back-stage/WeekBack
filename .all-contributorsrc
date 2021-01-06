@@ -1,0 +1,24 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "blossun",
+      "name": "Solar",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/35985636?v=4",
+      "profile": "https://blossun.github.io",
+      "contributions": [
+        "code"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "WeekBack",
+  "projectOwner": "back-stage",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "skipCi": true
+}
