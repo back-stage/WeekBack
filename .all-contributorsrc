@@ -14,6 +14,15 @@
         "doc",
         "review"
       ]
+    },
+    {
+      "login": "blossun",
+      "name": "Solar",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/35985636?v=4",
+      "profile": "https://blossun.github.io",
+      "contributions": [
+        "review"
+      ]
     }
   ],
   "contributorsPerLine": 7,
