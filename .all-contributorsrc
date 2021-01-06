@@ -41,6 +41,15 @@
       "contributions": [
         "review"
       ]
+    },
+    {
+      "login": "dev-Lena",
+      "name": "Keunna Lee",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/52783516?v=4",
+      "profile": "http://lena-chamna.netlify.app/",
+      "contributions": [
+        "review"
+      ]
     }
   ],
   "contributorsPerLine": 7,
