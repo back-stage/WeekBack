@@ -3,8 +3,6 @@
 [![All Contributors](https://img.shields.io/badge/all_contributors-5-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
-~~로고 이미지~~
-
 > 세상에... 나쁜... 개발자는... 없다...!
 
 ### **변화의 기록을 통해 동료와 함께 성장하는 주간 계획 모임**
@@ -40,7 +38,10 @@ _이전 스터디 저장소 - [주라주라 스터디](https://github.com/guswns
 
 ### 📝진행
 
-- 주간 리더: 솔라 → 에버 → 제이 → 푸글 → 레나 → ...
+- 주간 리더: 솔라 → 에버 → 푸글 → 레나 → 제이 ...
+    - 해당 주 리더의 한 마디
+    - 구글 Meet 링크 공유 및 진행 
+    - 리마인드: 매주 일요일(목표 달성 마감일)
 - 목표 설정 마감일: ~ 매주 (월)
 - 목표 수정 마감일: ~ 매주 (수)
 
@@ -104,12 +105,6 @@ _이전 스터디 저장소 - [주라주라 스터디](https://github.com/guswns
         - n주 차 (ex. `week_1`)
 
 <br>
-
-### 👥Contributors
-
-<a href="https://github.com/back-stage/WeekBack/graphs/contributors">
-  <img src="https://contributors-img.web.app/image?repo=back-stage/WeekBack" />
-</a>
 
 ## Contributors ✨
 
