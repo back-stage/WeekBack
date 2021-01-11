@@ -32,3 +32,14 @@
 
   - [ ] 시스템 콜(system call)
 
+
+
+
+
+## TIL
+
+* 2021.01.11.Mon
+  xib로 viewController를 만든 후 코드로 불러와 화면을 띄울 때 주의할 점
+  1. 이 경우 view와 매칭되는 view controller 클래스는 custom class으로 지정하지 않고 file owner로 지정해야 한다.
+  2. file owner의 view와 xib 파일의 view를 연결해줘야 한다. ([stackoverflow](https://stackoverflow.com/questions/4763519/loaded-nib-but-the-view-outlet-was-not-set) 참고)
+
