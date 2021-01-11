@@ -5,11 +5,13 @@
 
 > 세상에... 나쁜... 개발자는... 없다...!
 
-### **변화의 기록을 통해 동료와 함께 성장하는 주간 계획 모임**
+## **변화의 기록을 통해 동료와 함께 성장하는 주간 계획 모임**
 
 <br>
 
-_이전 스터디 저장소 - [주라주라 스터디](https://github.com/guswns1659/JuraJura)_
+### 참고
+* 이전 스터디 저장소 - [주라주라 스터디](https://github.com/guswns1659/JuraJura)
+* [회비 및 출석표 시트](https://docs.google.com/spreadsheets/d/1bW4PDzOeI4BGsfmKYqqA4cw2bDyWchXP4qRALd16rEE/edit?usp=sharing)
 
 <br>
 
@@ -19,11 +21,11 @@ _이전 스터디 저장소 - [주라주라 스터디](https://github.com/guswns
 
 | 참여자 | 1주 차 | 2주 차 | 3주 차 | 4주 차 | 5주 차 | 6주 차 | 7주 차 | 참석률 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| [제이 beginin15](https://github.com/beginin15) |:white_check_mark:||||||| 14.29% |
-| [솔라 blossun](https://github.com/blossun) |:white_check_mark:||||||| 14.29% |
-| [에버 hsik0225](https://github.com/hsik0225) |:white_check_mark:||||||| 14.29% |
-| [푸글 suhyunsim](https://github.com/suhyunsim) |:white_check_mark:||||||| 14.29% |
-| [레나 dev-Lena](https://github.com/dev-Lena) |:white_check_mark:||||||| 14.29% |
+| [제이 beginin15](https://github.com/beginin15) |✔||||||| 14.29% |
+| [솔라 blossun](https://github.com/blossun) |✔||||||| 14.29% |
+| [에버 hsik0225](https://github.com/hsik0225) |✔||||||| 14.29% |
+| [푸글 suhyunsim](https://github.com/suhyunsim) |✔||||||| 14.29% |
+| [레나 dev-Lena](https://github.com/dev-Lena) |✔||||||| 14.29% |
 
 <br>
 
