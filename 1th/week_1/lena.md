@@ -56,3 +56,12 @@
   1. 이 경우 view와 매칭되는 view controller 클래스는 custom class으로 지정하지 않고 file owner로 지정해야 한다.
   2. file owner의 view와 xib 파일의 view를 연결해줘야 한다. ([stackoverflow](https://stackoverflow.com/questions/4763519/loaded-nib-but-the-view-outlet-was-not-set) 참고)
 
+* 2021.01.11.Tue
+
+  multipart/form-data 타입의 HTTP 메시지 구성 방법
+  클라이언트에서 서버에 파일을 업로드할 때, HTTP 요청의 multipart/formdata를 수동으로 구성해주는 방법에 대해 알아봤습니다.
+  HTTP 이해하기: [multipart/form-data 타입의 HTTP 메시지 구성 방법](multipart/form-data 타입의 HTTP 메시지 구성 방법), [HTTP multipart/form-data raw 데이터는 어떤 형태일까?](https://lng1982.tistory.com/209)
+  iOS 에서 파일 보내기: [[Swift] - MultiPart통신 (멀티파트 이미지업로드)](https://nsios.tistory.com/39), [Uploading images and forms to a server using URLSession](https://www.donnywals.com/uploading-images-and-forms-to-a-server-using-urlsession/), [How to Upload Image to Imgur in iOS using Swift](https://johncodeos.com/how-to-upload-image-to-imgur-in-ios-using-swift/), [Upload image to server using URLSessionUploadTask](https://fluffy.es/upload-image-to-server/)
+
+  
+
