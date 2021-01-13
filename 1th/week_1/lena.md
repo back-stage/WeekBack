@@ -63,5 +63,13 @@
   HTTP 이해하기: [multipart/form-data 타입의 HTTP 메시지 구성 방법](multipart/form-data 타입의 HTTP 메시지 구성 방법), [HTTP multipart/form-data raw 데이터는 어떤 형태일까?](https://lng1982.tistory.com/209)
   iOS 에서 파일 보내기: [[Swift] - MultiPart통신 (멀티파트 이미지업로드)](https://nsios.tistory.com/39), [Uploading images and forms to a server using URLSession](https://www.donnywals.com/uploading-images-and-forms-to-a-server-using-urlsession/), [How to Upload Image to Imgur in iOS using Swift](https://johncodeos.com/how-to-upload-image-to-imgur-in-ios-using-swift/), [Upload image to server using URLSessionUploadTask](https://fluffy.es/upload-image-to-server/)
 
-  
+* 2021.01.13.Wed![image](https://user-images.githubusercontent.com/52783516/104459823-a1ccd600-55f0-11eb-9f7e-545a1d1f6aa1.png)
+  (이미지 출처: http://smnh.me/hit-testing-in-ios/)
+  View가 겹쳐있을 때 HitTest로 Touch Event 받기
+  : UIView에 있는 `hitTest(_:with:)`를 이용하여 가장 top의 있는 view가 touch event를 수신(receive)하지 않는다고 설정하면 그 뒤(behind)에 있는 view가 event를 받을 수 있습니다.
+  앱에서 Event를 처리하는 과정
 
+  * [Using Responders and the Responder Chain to Handle Events](https://developer.apple.com/documentation/uikit/touches_presses_and_gestures/using_responders_and_the_responder_chain_to_handle_events)
+  * [UIResponder](https://developer.apple.com/documentation/uikit/uiresponder)
+  * [UIEvent](https://developer.apple.com/documentation/uikit/uievent)
+  * [hitTest(_:with:)](https://developer.apple.com/documentation/uikit/uiview/1622469-hittest)
