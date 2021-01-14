@@ -73,3 +73,14 @@
   * [UIResponder](https://developer.apple.com/documentation/uikit/uiresponder)
   * [UIEvent](https://developer.apple.com/documentation/uikit/uievent)
   * [hitTest(_:with:)](https://developer.apple.com/documentation/uikit/uiview/1622469-hittest)
+
+* 2021.01.14.Thu
+
+  네트워킹을 위한 URLSession 공식문서를 읽어봤습니다. 구현을 한 다음에 보니까 이해가 잘되네요 ㅠ 먼저 살펴볼껄 😢
+
+  <img src="https://user-images.githubusercontent.com/52783516/104594546-a5c22c00-56b4-11eb-8c15-9fd19398c887.png" alt="image" style="zoom: 50%;" />
+
+  * [URL Loading System](https://developer.apple.com/documentation/foundation/url_loading_system)
+  * [Uploading Data to a Website](https://developer.apple.com/documentation/foundation/url_loading_system/uploading_data_to_a_website)
+  * [URLSession](https://developer.apple.com/documentation/foundation/urlsession#//apple_ref/occ/instm/NSURLSession/dataTaskWithRequest:)
+
