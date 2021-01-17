@@ -1,0 +1,61 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "suhyunsim",
+      "name": "Poogle",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/58318786?v=4",
+      "profile": "https://github.com/suhyunsim",
+      "contributions": [
+        "doc",
+        "review"
+      ]
+    },
+    {
+      "login": "blossun",
+      "name": "Solar",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/35985636?v=4",
+      "profile": "https://blossun.github.io",
+      "contributions": [
+        "review"
+      ]
+    },
+    {
+      "login": "beginin15",
+      "name": "Jay",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/33659848?v=4",
+      "profile": "https://github.com/beginin15",
+      "contributions": [
+        "review"
+      ]
+    },
+    {
+      "login": "hsik0225",
+      "name": "hsik0225",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/56301069?v=4",
+      "profile": "https://github.com/hsik0225",
+      "contributions": [
+        "review"
+      ]
+    },
+    {
+      "login": "dev-Lena",
+      "name": "Keunna Lee",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/52783516?v=4",
+      "profile": "http://lena-chamna.netlify.app/",
+      "contributions": [
+        "review"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "WeekBack",
+  "projectOwner": "back-stage",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "skipCi": true
+}
