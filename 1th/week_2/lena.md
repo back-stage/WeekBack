@@ -41,3 +41,23 @@
 마음같아서는 얼른 끝내고 싶어서 항상 곧 끝내겠다고 말했는데, 이렇게 말한지 얼마나됐는지 기억이 나질 않는다 😢
 
 하지만 진짜로 거의 다 왔다. 그래도 끝까지 마무리 지어야지 😓
+
+
+
+## TIL
+
+### 01.19.Mon TIL
+
+ `git merge dev -s ours`
+
+* 상황:
+  1. 브랜치 상황:
+     **dev**, **branchA**(내가 PR을 보내서 dev로 merge했었음. 커밋 6개), **branchB**(branchA PR을 revert하면서 생긴 branch임), **branchC**(branchA에서 error를 fix해서 PR을 보냄. 커밋 2개), **branchD**(로컬에서 새로 만든 브랜치)
+  2. 진행:
+     branchD로 체크아웃
+     branchA에 있는 커밋 6개를 cherry-pick으로 가져옴
+     branchC에 있는 커밋 2개를 cherry-pick으로 가져옴
+     변경 사항을 다 가지고 있는 branchD를 dev로 merge
+     이 때 명령어가  `git merge dev -s ours`
+
+[Why would one use “git merge -s ours”?](https://stackoverflow.com/questions/5077688/why-would-one-use-git-merge-s-ours#:~:text=Whenever%20you%20do%20a%20merge,creating%20a%20new%20common%20ancestor.)
