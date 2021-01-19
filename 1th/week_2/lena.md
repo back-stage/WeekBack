@@ -41,3 +41,112 @@
 마음같아서는 얼른 끝내고 싶어서 항상 곧 끝내겠다고 말했는데, 이렇게 말한지 얼마나됐는지 기억이 나질 않는다 😢
 
 하지만 진짜로 거의 다 왔다. 그래도 끝까지 마무리 지어야지 😓
+
+
+
+## TIL
+
+### 01.19.Mon TIL
+
+ `git merge dev -s ours`
+
+* 상황:
+  1. 브랜치 상황:
+     **dev**, **branchA**(내가 PR을 보내서 dev로 merge했었음. 커밋 6개), **branchB**(branchA PR을 revert하면서 생긴 branch임), **branchC**(branchA에서 error를 fix해서 PR을 보냄. 커밋 2개), **branchD**(로컬에서 새로 만든 브랜치)
+  2. 진행:
+     branchD로 체크아웃
+     branchA에 있는 커밋 6개를 cherry-pick으로 가져옴
+     branchC에 있는 커밋 2개를 cherry-pick으로 가져옴
+     변경 사항을 다 가지고 있는 branchD를 dev로 merge
+     이 때 명령어가  `git merge dev -s ours`
+
+[Why would one use “git merge -s ours”?](https://stackoverflow.com/questions/5077688/why-would-one-use-git-merge-s-ours#:~:text=Whenever%20you%20do%20a%20merge,creating%20a%20new%20common%20ancestor.)
+
+## TIL
+
+### 01.20.Wed TIL
+
+Swift에서 배열 다루기
+
+- 배열의 원소들을 하나로 묶는 방법
+  `func joined(separator: String = "") -> String`
+
+  ```swift
+  // 기본
+  let cast = ["Vivien", "Marlon", "Kim", "Karl"]
+  let list = cast.joined(separator: ", ")
+  print(list)
+  // Prints "Vivien, Marlon, Kim, Karl"
+  
+  // 활용
+  let ranges = [0..<3, 8..<10, 15..<17]
+  // 'ranges' 배열에 for-in 루프를 사용하면 각각의 원소에만 접근할 수 있음
+  for range in ranges {
+      print(range)
+  }
+  // "0..<3"가 출력됨
+  // "8..<10"가 출력됨
+  // "15..<17"가 출력됨
+  // 'joined()'를 사용하면 각각의 범위에 접근할 수 있음
+  for index in ranges.joined() {
+      print(index, terminator: " ")
+  }
+  // “0 1 2 8 9 15 16” 출력
+  ```
+
+  [joined(separator:)](https://developer.apple.com/documentation/swift/sequence/1641243-joined)
+
+  [Swift joined 배열의 원소들을 하나로 묶는 방법](https://medium.com/@sunghyun_k/swift-joined-4fcc49098bd0)
+
+- 두 배열 안에 공통 요소 찾는 방법
+  [How to get list of common elements of 2 array in Swift?](https://stackoverflow.com/questions/32439289/how-to-get-list-of-common-elements-of-2-array-in-swift)
+
+- 두 배열에서 다른 요소 찾는 방법
+
+  ```swift
+  extension Array where Element: Hashable {
+      func difference(from other: [Element]) -> [Element] {
+          let thisSet = Set(self)
+          let otherSet = Set(other)
+          return Array(thisSet.symmetricDifference(otherSet))
+      }
+  }
+  
+  let names1 = ["John", "Paul", "Ringo"]
+  let names2 = ["Ringo", "Paul", "George"]
+  let difference = names1.difference(from: names2)
+  ```
+
+  [difference between two arrays](https://www.hackingwithswift.com/example-code/language/how-to-find-the-difference-between-two-arrays)
+
+- 시퀀스 안에 값이 포함되어있는지 확인하는 방법
+  `func contains(_ element: Element) -> Bool`
+  Complexity: **O(*n*)**, where *n* is the length of the sequence.
+
+  ``` swift
+  let cast = ["Vivien", "Marlon", "Kim", "Karl"]
+  print(cast.contains("Marlon"))
+  // Prints "true"
+  print(cast.contains("James"))
+  // Prints "false"
+  ```
+
+  [contains(_:)](https://developer.apple.com/documentation/swift/array/2945493-contains)
+
+- A 시퀀스와 B 시퀀스에 동일한 요소가 동일한 순서로 포함되어 있는지 확인하는 방법
+  `func elementsEqual<OtherSequence>(_ other: OtherSequence) -> Bool where OtherSequence : Sequence, Self.Element == OtherSequence.Element`
+  Complexity: **O(*m*)**, where *m* is the lesser of the length of the sequence and the length of `other`.
+
+  ```swift
+  let a = 1...3
+  let b = 1...10
+  
+  print(a.elementsEqual(b))
+  // Prints "false"
+  print(a.elementsEqual([1, 2, 3]))
+  // Prints "true"
+  ```
+
+  [elementsEqual(_:)](https://developer.apple.com/documentation/swift/array/2853688-elementsequal)
+
+  
