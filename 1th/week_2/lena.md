@@ -47,7 +47,6 @@
 ## TIL
 
 ### 01.18.Mon TIL
-
  `git merge dev -s ours`
 
 * 상황:
@@ -59,6 +58,7 @@
      branchC에 있는 커밋 2개를 cherry-pick으로 가져옴
      변경 사항을 다 가지고 있는 branchD를 dev로 merge
      이 때 명령어가  `git merge dev -s ours`
+
 
 [Why would one use “git merge -s ours”?](https://stackoverflow.com/questions/5077688/why-would-one-use-git-merge-s-ours#:~:text=Whenever%20you%20do%20a%20merge,creating%20a%20new%20common%20ancestor.)
 
