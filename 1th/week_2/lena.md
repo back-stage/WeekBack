@@ -46,7 +46,7 @@
 
 ## TIL
 
-### 01.19.Mon TIL
+### 01.18.Mon TIL
 
  `git merge dev -s ours`
 
