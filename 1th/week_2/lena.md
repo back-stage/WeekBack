@@ -62,7 +62,7 @@
 
 [Why would one use “git merge -s ours”?](https://stackoverflow.com/questions/5077688/why-would-one-use-git-merge-s-ours#:~:text=Whenever%20you%20do%20a%20merge,creating%20a%20new%20common%20ancestor.)
 
-## TIL
+## 
 
 ### 01.20.Wed TIL
 
@@ -150,3 +150,20 @@ Swift에서 배열 다루기
   [elementsEqual(_:)](https://developer.apple.com/documentation/swift/array/2853688-elementsequal)
 
   
+### 01.22.Fri TIL
+
+오늘 유난히 쓰레드 관련 에러를 많이 봐서 에러 메세지에 나온 내용을 찾아보다가 읽어봤습니다.
+
+이전에 아주 간단하게 공부한 적이 있었는데 이쪽을 뭔가 좀 더 파고 싶네요. 굉장히 재밌어 보여요.
+
+그리고 지금 네트워크에서 data와 image를 비동기적으로 가지고 와서 View에 표시할 때의 타이밍 문제를 계속 마딱드리고 있는데, 현재는 handler와 notificationCenter를 이용해서 타이밍을 맞추고 있지만 추후에 DispatchGroup을 이용할 수 있을 것 같다는 생각이 들었습니다.
+
+* QoS
+  1. [Prioritize Work with Quality of Service Classes](https://developer.apple.com/library/archive/documentation/Performance/Conceptual/EnergyGuide-iOS/PrioritizeWorkWithQoS.html)
+  2. [iOS ) Prioritize Work with Quality of Service Classes](https://zeddios.tistory.com/521)
+
+* DispatchGroup
+
+  1. [DispatchGroup](https://developer.apple.com/documentation/dispatch/dispatchgroup)
+  2. [iOS ) GCD - Dispatch Queue사용법 (2) / DispatchWorkItem, DispatchGroup](https://zeddios.tistory.com/520)
+
