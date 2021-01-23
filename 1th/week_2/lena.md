@@ -165,5 +165,30 @@ Swift에서 배열 다루기
 * DispatchGroup
 
   1. [DispatchGroup](https://developer.apple.com/documentation/dispatch/dispatchgroup)
+  
   2. [iOS ) GCD - Dispatch Queue사용법 (2) / DispatchWorkItem, DispatchGroup](https://zeddios.tistory.com/520)
+  
+     
+
+### 01.23.Sat TIL
+
+`@escaping closure`와 `nested function`의 특징에 대해 알아봤습니다.
+
+`completionHandler` 클로저로 서버에서 비동기적으로 받아오는 데이터와 뷰에 표시해주는 타이밍을 맞추고 있다가 `completionHandler`에 `@escaping` 키워드를 붙이지 않았을 때 에러가 나는 걸 보고 이번에 다시 훑어봤습니다.
+
+그리고 기존에 짜 놓은 코드를 살펴보다가 nested function으로 짠 코드가 있는데 문득 retain cycle이 걱정되어서 이것에 대해서도 알아봤습니다.
+
+* `@escaping closure`
+  [Escaping Closures](https://docs.swift.org/swift-book/LanguageGuide/Closures.html#ID546)
+
+  [How To: Escaping Closures In Swift With @escaping](https://learnappmaking.com/escaping-closures-swift/)
+  [What is @escaping in Swift?](https://www.donnywals.com/what-is-escaping-in-swift/)
+  [Completion Handler in Swift with @escaping and @nonescaping closures.](https://medium.com/@dhavalkansara51/completion-handler-in-swift-with-escaping-and-nonescaping-closures-1ea717dc93a4)
+
+* `nested function`
+  [Nested Functions in Swift. Real experience](https://alexalmostengineer.medium.com/nested-functions-in-swift-real-experience-88cf00301f0e)
+
+  [Nested Functions](https://docs.swift.org/swift-book/LanguageGuide/Functions.html#ID178)[What is the practical use of nested functions in swift? [duplicate\]](https://stackoverflow.com/questions/32968133/what-is-the-practical-use-of-nested-functions-in-swift)
+  
+  [What is the practical use of nested functions in swift? duplicate](https://stackoverflow.com/a/41984023)
 
