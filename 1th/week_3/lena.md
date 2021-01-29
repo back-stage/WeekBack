@@ -49,3 +49,14 @@
 유튜브를 보고 SwiftUI로 Bar Graph를 만들어봤습니다. -> [Github](https://github.com/dev-Lena/SwiftUI/tree/main/ChartPractice)
 
 <img src="https://github.com/dev-Lena/SwiftUI/raw/main/ChartPractice/Media/swiftui_chart_light_mode.gif" alt="img" width="20%">
+
+
+
+### 01.28.Thu TIL
+
+SwiftUI에서 사용되는 프로퍼티 래퍼(Property Wrapper)에 대해 알아봤습니다. (@State의 역할 등)
+
+1. [A guide to SwiftUI’s state management system](https://www.swiftbysundell.com/articles/swiftui-state-management-guide/)
+2. [What does the SwiftUI `@State` keyword do?](https://stackoverflow.com/questions/56438730/what-does-the-swiftui-state-keyword-do)
+3. [Understanding of Property Wrappers in SwiftUI](https://medium.com/mindful-engineering/understanding-of-property-wrappers-in-swiftui-3789a72515c0)
+
