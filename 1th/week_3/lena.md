@@ -60,3 +60,8 @@ SwiftUI에서 사용되는 프로퍼티 래퍼(Property Wrapper)에 대해 알�
 2. [What does the SwiftUI `@State` keyword do?](https://stackoverflow.com/questions/56438730/what-does-the-swiftui-state-keyword-do)
 3. [Understanding of Property Wrappers in SwiftUI](https://medium.com/mindful-engineering/understanding-of-property-wrappers-in-swiftui-3789a72515c0)
 
+
+
+### 01.29.Fri TIL
+
+[WWDC 2018 iOS Memory Deep Dive](https://developer.apple.com/videos/play/wwdc2018/416/) 눕시청했습니다. 눕시청했는데 내용이 좋아서 나중에 다시 보며 정리할 예정입니다!
