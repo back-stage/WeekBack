@@ -39,3 +39,13 @@
 그래서 휴식이나 운동 같이 일상과 공부의 균형을 맞추지 못하고 있는 것 같습니다.
 이번주는 지난주에 비해 개발을 많이 못했네요 ㅠㅠ
 <img src="https://user-images.githubusercontent.com/52783516/105634392-17faf380-5ea1-11eb-94cd-4231af30afef.png" alt="image" width="50%;" />
+
+
+
+## TIL
+
+### 01.26.Tue TIL
+
+유튜브를 보고 SwiftUI로 Bar Graph를 만들어봤습니다. -> [Github](https://github.com/dev-Lena/SwiftUI/tree/main/ChartPractice)
+
+<img src="https://github.com/dev-Lena/SwiftUI/raw/main/ChartPractice/Media/swiftui_chart_light_mode.gif" alt="img" width="20%">
