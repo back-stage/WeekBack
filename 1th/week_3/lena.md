@@ -65,3 +65,22 @@ SwiftUI에서 사용되는 프로퍼티 래퍼(Property Wrapper)에 대해 알�
 ### 01.29.Fri TIL
 
 [WWDC 2018 iOS Memory Deep Dive](https://developer.apple.com/videos/play/wwdc2018/416/) 눕시청했습니다. 눕시청했는데 내용이 좋아서 나중에 다시 보며 정리할 예정입니다!
+
+
+
+### 01.30.Sat TIL
+
+터치 이벤트가 발생했을 때 이벤트를 처리할 UIView 객체를 찾아가는 과정에 대해 공부했습니다.
+hit-testing에 대한 블로그 글을 쓰면서 알아보던 중 읽은 글에서 이벤트를 처리할 UIView 객체를 찾는 프로세스에서 reverse pre-order depth-first traversal algorithm 을 쓴다고 하는데 흥미로웠습니다. 제가 잠깐 찾아보고 이해한 바로는 깊이 우선 탐색 알고리즘의 변형? 응용? 버전인것 같은데요.
+
+<img src="https://miro.medium.com/max/1680/0*miG6xdyYzdvrB67S.gif" alt="Breadth-first vs Depth-first Tree Traversal in Javascript | by Kenny Hom |  Medium" style="zoom:80%;" />
+<br>여기서 왼쪽 DFS가 깊이 우선 탐색 알고리즘인데
+<img src="http://d33wubrfki0l68.cloudfront.net/60d215400d2340e2334016ea6914aef24cfe6939/d4938/images/hit-test-depth-first-traversal.png" alt="계층 깊이 우선 순회보기" style="zoom:40%;" />
+
+이벤트를 처리할 UIView 객체를 찾아가는 과정이 이렇거든요.
+
+오 뭔가 흥미로웠습니다. 재밌네요 👻
+
+1. [hitTest:withEvent:](https://developer.apple.com/documentation/uikit/uiview/1622469-hittest?language=objc)
+2. [hitTest(_:with:)](https://developer.apple.com/documentation/uikit/uiview/1622469-hittest)
+3. [Hit-Testing in iOS](http://smnh.me/hit-testing-in-ios/)
