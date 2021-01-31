@@ -16,12 +16,12 @@
 
 ### 알고리즘 풀기 - 2 문제
 
-- [ ] 1
-- [ ] 2
+- [x] 1
+- [x] 2
 
 
 | 문제       | 제출 |
 | ------------- | ---- |
-| 1번째 문제 | .    |
-| 2번째 문제 | .    |
+| leetcode - 88. Merge Sorted Array | [leetcode - 88. Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/) |
+| leetcode - 202. Happy Number | [leetcode - 202. Happy Number](https://leetcode.com/problems/happy-number/) |
 
