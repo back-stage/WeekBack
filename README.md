@@ -23,11 +23,11 @@
 
 | 참여자 | 1주 차 | 2주 차 | 3주 차 | 4주 차 | 5주 차 | 6주 차 | 7주 차 | 참석률 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| [제이 beginin15](https://github.com/beginin15) |✔|✔|||||| 29% |
-| [솔라 blossun](https://github.com/blossun) |✔|✔|||||| 29% |
-| [에버 hsik0225](https://github.com/hsik0225) |✔|✔|||||| 29% |
-| [푸글 suhyunsim](https://github.com/suhyunsim) |✔|✔|||||| 29% |
-| [레나 dev-Lena](https://github.com/dev-Lena) |✔|✔|||||| 29% |
+| [제이 beginin15](https://github.com/beginin15) |✔|✔|✔|✔|||| 57% |
+| [솔라 blossun](https://github.com/blossun) |✔|✔|✔|✔|||| 57% |
+| [에버 hsik0225](https://github.com/hsik0225) |✔|✔|✔|✔|||| 57% |
+| [푸글 suhyunsim](https://github.com/suhyunsim) |✔|✔|✔|✔|||| 57% |
+| [레나 dev-Lena](https://github.com/dev-Lena) |✔|✔|✔|✔|||| 57% |
 
 <br>
 
