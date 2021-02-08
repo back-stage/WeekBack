@@ -11,11 +11,11 @@
 - [ ] 3
 - [ ] 4
 
-| 블로그                                                   |
-| ------------------------------------------------------------ |
-| [Title)](url) |
+| 블로그            |
+| ------------- |
 | [Title](url) |
-| [Title)](url) |
+| [Title](url) |
+| [Title](url) |
 | [Title](url) |
 
 ### 목표 2. SwiftUI 토이 프로젝트
@@ -27,4 +27,11 @@
 
 | Github                |
 | ------------------ |
-|[Custom Inline Curves And Shapes](https://github.com/dev-Lena/SwiftUI/tree/main/CustomInlineCurvesAndShapes) |
+|[Title](url) |
+|[Title](url) |
+
+### 목표 3. 원티드 성장하는 iOS 개발자되기 
+
+- [ ] 눕시청
+
+![image](https://user-images.githubusercontent.com/52783516/107178905-8484ff00-6a18-11eb-8798-6e4aadff1c24.png)
