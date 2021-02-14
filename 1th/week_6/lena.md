@@ -5,22 +5,28 @@
 ## 목표
 
 ### 목표 1. 블로그 글 또는 초고 작성 - 4개 이상(주제는 아래에서 선정)
+* 주제 후보: 프레임워크 vs 라이브러리 차이 정리✅/ Delegation 패턴/  SwiftUI 관련✅/ 메모리 관련/ GCD 관련/ 디자인 패턴/ TDD vs BDD
 
-- [ ] 1
-- [ ] 2
-- [ ] 3
-- [ ] 4
+- [x] 1 Swift Generic
+- [x] 2 iOS에서 서버에 파일 보내는 이전 포스팅을 2개로 분리(HTTP 이해 /iOS에서 활용 예시) 및 iOS에서의 활용 예시 추가 
+- [x] 3 Library vs Framework에 대한 초고 작성
+  에버군이 알려준 [우테코 테코톡 영상 참고](https://www.youtube.com/watch?v=We8JKbNQeLo)
+  솔라양이 알려준 [영상](https://youtu.be/t9ccIykXTCM)
+  참고했습니다!
+- [x] 4 SwiftUI Property Wrapper에 대한 초고 작성
 
-* 주제 후보: 프레임워크 vs 라이브러리 차이 정리/ Delegation 패턴/  SwiftUI 관련/ 메모리 관련/ GCD 관련/ 디자인 패턴/ TDD vs BDD
-* 참고: 에버군이 알려준 [우테코 테코톡 영상 참고](https://www.youtube.com/watch?v=We8JKbNQeLo)
-솔라양이 알려준 [영상](https://youtu.be/t9ccIykXTCM)
 
 | 블로그            |
 | ------------- |
-| [Title](url) |
-| [Title](url) |
-| [Title](url) |
-| [Title](url) |
+| [Swift - Generic](https://lena-chamna.netlify.app/post/introduce_swift_generic/) |
+| [multipart/form-data 이용해서 사진/이미지 배열 업로드하기](https://lena-chamna.netlify.app/post/uploading_array_of_images_using_multipart_form-data_in_swift/) |
+
+* 블로그 초고
+
+<img src="https://user-images.githubusercontent.com/52783516/107873289-d89a5280-6ef4-11eb-9fd1-ece2c47106b2.png" alt="image" width="63%;" /><img src="https://user-images.githubusercontent.com/52783516/107873292-e51eab00-6ef4-11eb-912b-0ca7b72c05ab.png" alt="image" width="63%;" />
+
+
+
 
 ### 목표 2. SwiftUI 토이 프로젝트
 
