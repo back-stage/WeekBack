@@ -9,7 +9,7 @@
 
 이력서 작성 후 신입/경력 iOS 개발자 채용하는 기업에 지원
 
-<img src="/Users/keunnalee/Library/Application Support/typora-user-images/image-20210221134452248.png" alt="image-20210221134452248" style="zoom:50%;" />
+<img src="https://user-images.githubusercontent.com/52783516/108615835-4beb1980-744b-11eb-90a4-47fbc10839ea.png" width="50%;" />
 
 ## 목표 2 
 
