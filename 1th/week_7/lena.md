@@ -5,7 +5,11 @@
 
 ### 마감일 2월 28일 이내인 채용 공고 지원하기
 
-- [ ] 지원 완료
+- [x] 지원 완료
+
+이력서 작성 후 신입/경력 iOS 개발자 채용하는 기업에 지원
+
+<img src="/Users/keunnalee/Library/Application Support/typora-user-images/image-20210221134452248.png" alt="image-20210221134452248" style="zoom:50%;" />
 
 ## 목표 2 
 
