@@ -11,10 +11,10 @@ Photo Tag 리팩토링 + Daymoji 처음부터 구현
 
 (Network Manager, Use Case, End Point, Partial Sheet, Card View)
 
-### 목표 2. Metcon 수업 3번 이상 나가기
-- [ ] 1
-- [ ] 2
-- [ ] 3
+### 목표 2. 운동
+- [ ] Metcon 수업
+- [ ] Metcon 수업
+- [ ] 남산 정상 다녀오기
 
 ### 목표 3. 기술 면접 질문 4개 답변 정리
 - [ ] 1
