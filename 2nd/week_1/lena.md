@@ -42,3 +42,17 @@ Photo Tag 리팩토링 + Daymoji 처음부터 구현
 
 4. 면접 질문 정리하는건 이전에 공부했던 내용을 다시 읽고 정리해봤는데 다시보니까 또 새로운 느낌이더라구요
 
+
+
+## TIL
+
+
+
+### 2021.03.08.MON TIL
+
+LeetCode 문제 풀다가 stride 메서드라는걸 알게 됐습니다.
+
+`stride(from:to:by:)` : from 에서부터 by의 간격으로 to "미만"의 범위에서 반복 연산을 수행한다.
+`stride(from:through:by:)`: from 에서부터 by의 간격으로 through "이하"의 범위에서 반복 연산을 수행한다.
+
+참고: [Stride](https://developer.apple.com/documentation/swift/memorylayout/2429192-stride), [stride(from:to:by:)](https://developer.apple.com/documentation/swift/1641347-stride), [stride(from:through:by:)](https://developer.apple.com/documentation/swift/1641185-stride), [Swift 문서, Strideable 프로토콜 및 stride 사용법](https://0urtrees.tistory.com/144),
