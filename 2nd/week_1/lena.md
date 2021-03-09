@@ -55,4 +55,25 @@ LeetCode 문제 풀다가 stride 메서드라는걸 알게 됐습니다.
 `stride(from:to:by:)` : from 에서부터 by의 간격으로 to "미만"의 범위에서 반복 연산을 수행한다.
 `stride(from:through:by:)`: from 에서부터 by의 간격으로 through "이하"의 범위에서 반복 연산을 수행한다.
 
-참고: [Stride](https://developer.apple.com/documentation/swift/memorylayout/2429192-stride), [stride(from:to:by:)](https://developer.apple.com/documentation/swift/1641347-stride), [stride(from:through:by:)](https://developer.apple.com/documentation/swift/1641185-stride), [Swift 문서, Strideable 프로토콜 및 stride 사용법](https://0urtrees.tistory.com/144),
+참고: [Stride](https://developer.apple.com/documentation/swift/memorylayout/2429192-stride), [stride(from:to:by:)](https://developer.apple.com/documentation/swift/1641347-stride), [stride(from:through:by:)](https://developer.apple.com/documentation/swift/1641185-stride), [Swift 문서, Strideable 프로토콜 및 stride 사용법](https://0urtrees.tistory.com/144)
+
+### 2021.03.09.TUE TIL
+
+LeetCode 문제 풀다가 투 포인터 (Two pointer) 알고리즘이라는 걸 알게 됐습니다.
+이중 루프를 돌아야 하나 그럼 복잡도가 n제곱인데... 하면서 발을 동동 구르고 있었는데
+투 포인터라는 아이디어가 있더라구요!
+
+- 두 개의 포인터를 사용하는 알고리즘. 여기서 포인터는 C/C++의 포인터가 아니라, 어느 위치를 가르키는 개념적인 포인터다.
+
+- 문제 조건이 연속/선행적으로 무언가를 해야할때 사용된다. 대부분이 아래 3가지 경우에 속한다.
+
+**Collision** - One array, move from two sides to middle.
+**Forward** - One array, both move forward.
+**Parallel** - Two arrays, each array has been assigned with a pointer
+- 슬라이딩 윈도우와 개념이 비슷하다.
+
+<img src="https://blog.kakaocdn.net/dn/1GfnX/btqEK8Tg8Wf/55QuJ9YYKk97mwqcr3h9zK/img.png" alt="img" width="50%;" />
+
+1번 경우인 Collision에 속하는 문제. 두 수의 합이 40과 같은지를 찾는다. 한 수가 40보다 크면 포인터를 중앙으로 옮기고, 40보다 작아지면 다른 포인터를 옮겨보는 방식.
+
+참고:[투포인터 알고리즘](https://github.com/WooVictory/Ready-For-Tech-Interview/blob/master/Algorithm/%ED%88%AC%ED%8F%AC%EC%9D%B8%ED%84%B0%20%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98.md),  [[ 알고리즘 ] 투 포인터 알고리즘](https://developingbear.tistory.com/153)
