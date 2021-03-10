@@ -77,3 +77,36 @@ LeetCode 문제 풀다가 투 포인터 (Two pointer) 알고리즘이라는 걸 
 1번 경우인 Collision에 속하는 문제. 두 수의 합이 40과 같은지를 찾는다. 한 수가 40보다 크면 포인터를 중앙으로 옮기고, 40보다 작아지면 다른 포인터를 옮겨보는 방식.
 
 참고:[투포인터 알고리즘](https://github.com/WooVictory/Ready-For-Tech-Interview/blob/master/Algorithm/%ED%88%AC%ED%8F%AC%EC%9D%B8%ED%84%B0%20%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98.md),  [[ 알고리즘 ] 투 포인터 알고리즘](https://developingbear.tistory.com/153)
+
+### 2021.03.10.WED TIL
+
+요즘 알고리즘 풀면서 Map, FlatMap, CompactMap 을 자주 쓰고 자주 접하는데 flatmap과 compactMap 에 대한 차이를 정확히 찾아봤습니다.
+
+* map: `map`은 배열 내부의 값을 하나씩 `mapping` 합니다.
+  각 요소에 대한 값을 `변경`하고자 할때 사용하고, 그 결과들을 `배열의 상태로 반환`합니다.
+* flatMap 과 compactMap
+**Swift 4.1부터는 flatMap이 compactMap로 변경되지만, flatMap이 없어지는 것이 아닙니다.** 4.1 버전 이후로는 쓰임이 구별됩니다.
+
+  기존의 `flatMap`의 경우에는 배열을 `1.flatten하게` 만들어 주며 `2.nil을 제거`, `3. 옵셔널 바인딩`해주는 역할이였습니다. 위의 소스를 작성해보시면 이런 경고창이 뜨실겁니다.
+
+  > *‘flatMap’ is deprecated: Please use compactMap(**:) for the case where closure returns an optional value
+  > Use 'compactMap(**:)’ instead*
+  > 
+
+  -> 즉, Swift 4.1부터는 `1차원 배열`에서 `nil을 제거`하고 `옵셔널 바인딩`을 하고싶으실때는 `compactMap`을 사용하시면 됩니다.
+  
+  ➕  flatMapt과 compactMap은 nil을 제거하지않고 1차원 배열일때만 nil제거합니다.
+
+  * **flatMap**: flatMap은 2차원배열을 1차원배열로 flatten 하게 만들어주는 반면, compactMap은 1차원 배열로 만들지 않습니다. 2차원 배열을 1차원으로 flatten하게 만드실때 flatMap을 사용
+  * **compactMap**: 1차원 배열에서 nil을 제거하고 옵셔널 바인딩을 하고싶으실때는 compactMap을 사용
+
+```swift
+let array2: [[Int?]] = [[1, 2, 3], [nil, 5], [6, nil], [nil, nil]]
+let flatMapTest2 = array2.flatMap { $0 }.compactMap{ $0 }
+
+// result: 
+// flatMapTest2 : [1, 2, 3, 5, 6]
+```
+
+참고: [[Swift] 고차함수(2) - map, flatMap, compactMap](https://jinshine.github.io/2018/12/14/Swift/22.%EA%B3%A0%EC%B0%A8%ED%95%A8%EC%88%98(2)%20-%20map,%20flatMap,%20compactMap/), [Map, FlatMap and CompactMap](https://www.swiftbysundell.com/basics/map-flatmap-and-compactmap/)
+
