@@ -110,3 +110,10 @@ let flatMapTest2 = array2.flatMap { $0 }.compactMap{ $0 }
 
 참고: [[Swift] 고차함수(2) - map, flatMap, compactMap](https://jinshine.github.io/2018/12/14/Swift/22.%EA%B3%A0%EC%B0%A8%ED%95%A8%EC%88%98(2)%20-%20map,%20flatMap,%20compactMap/), [Map, FlatMap and CompactMap](https://www.swiftbysundell.com/basics/map-flatmap-and-compactmap/)
 
+
+### 2021.03.11.THU TIL
+알고리즘 풀면서 알게된 string에서 공백(whitespace) 없애는 함수
+
+[trimmingCharacters(in:)](https://developer.apple.com/documentation/foundation/nsstring/1415462-trimmingcharacters)
+: Returns a new string made by removing from both ends of the receiver characters contained in a given character set.
+**Discussion**: Use whitespaces or whitespacesAndNewlines to remove whitespace around strings.
