@@ -5,9 +5,9 @@
 
 > 세상에... 나쁜... 개발자는... 없다...!
 
-## **변화의 기록을 통해 동료와 함께 성장하는 주간 계획 모임**
+## **변화의 기록을 통해 동료와 함께 성장하는 주간 계획 모임** (21.06.07 기준)
 
-![WB 일주일](https://user-images.githubusercontent.com/58318786/104989878-c1378900-5a5e-11eb-9925-8916118dd48d.png)
+![WB 일주일](https://user-images.githubusercontent.com/58318786/121938960-64c76400-cd87-11eb-8c2d-7ef35839e1af.png)
 
 <br>
 
@@ -23,10 +23,10 @@
 
 | 참여자 | 1주 차 | 2주 차 | 3주 차 | 4주 차 | 5주 차 | 6주 차 | 7주 차 | 참석률 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| [제이 beginin15](https://github.com/beginin15) |||||||| 0% |
-| [솔라 blossun](https://github.com/blossun) |||||||| 0% |
-| [푸글 suhyunsim](https://github.com/suhyunsim) |||||||| 0% |
-| [레나 dev-Lena](https://github.com/dev-Lena) |||||||| 0% |
+| [제이 beginin15](https://github.com/beginin15) |✔||||||| 14% |
+| [솔라 blossun](https://github.com/blossun) |✔||||||| 14% |
+| [푸글 suhyunsim](https://github.com/suhyunsim) |✔||||||| 14% |
+| [레나 dev-Lena](https://github.com/dev-Lena) |✔||||||| 14% |
 
 
 ### 2기
@@ -57,10 +57,10 @@
 <br>
 
 ## 📃Rules
-### 👋모임 (21.03.29 기준)
+### 👋모임 (21.06.07 기준)
 
 - 오프라인: X (코로나로 인해 원격 진행)
-- 온라인: 매주 (월) 10시 - 슬랙 채널에 공유한 링크
+- 온라인: 매주 (일) 10시 - 슬랙 채널에 공유한 링크
 
 <br>
 
@@ -90,11 +90,11 @@
 - 지정된 Reviewer가 피드백 후 피드백 라벨을 달고 PR을 Approve한다.
 - PR 피드백을 받은 것을 확인한 후 PR의 주인이 직접 merge 한다.
 - 주간 리더가 이슈를 닫는다.
-- 기수 마무리 후 WeekBack Repository에서 `main` <= `beginin15` 로 PR을 보내며 기수 회고를 마무리한다. (Squash
+- 기수 마무리 후 WeekBack Repository에서 `main` <= `beginin15` 로 PR을 보내며 기수 회고를 마무리한다.
 
 <br>
 
-### 💥벌칙 & 벌금
+### 💥벌칙 & 벌금 (21.06.13 기준)
 
 - 벌금 관리 spread sheet & `README.md` 파일에 간단 작성
 - 예치금 30,000원
@@ -107,7 +107,7 @@
         - 미달성 시 3,000원씩 차감
         - 목표 수정 시 1,000원씩 차감
 - 벌칙
-    - 목표 미달성 시 그 다음 주까지 일일 회고 PR comment 4개 달기(개인 TIL 링크, 회고 등 자유양식)
+    - 목표 미달성 시 그 다음 주 목표 마감까지 일일 회고 PR comment 개수만큼 벌금 차감(개인 TIL 링크, 회고 등 자유양식)
 
 <br>
 
