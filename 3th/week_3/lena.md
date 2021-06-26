@@ -7,19 +7,19 @@
 
 
 
-- [ ] [Naver Engineering - iOS](https://tv.naver.com/v/9502363) 시청 후 간단하게 관련 내용 학습 후 정리 (3개 이상)
+- [x] [Naver Engineering - iOS](https://tv.naver.com/v/9502363) 시청 후 간단하게 관련 내용 학습 후 정리 (3개 이상)
 
 1. [영어 변수명을 잘 지어보자](https://tv.naver.com/v/4980432/list/267189)
 2. [Architecture + Clean Swift](https://tv.naver.com/v/4980400/list/267189)
 3. [SiriKit 소개](https://tv.naver.com/v/4980375/list/267189)
-4. [HTTP Live Streaming (HLS)](https://tv.naver.com/v/4980383/list/267189)
+4. ✅ [HTTP Live Streaming (HLS)](https://tv.naver.com/v/4980383/list/267189)
 5. [Clean swift architecture](https://tv.naver.com/v/8629561/list/267189)
 6. [iOS 프로젝트에 Unity를 붙일 수 있을까?](https://tv.naver.com/v/8629583/list/267189)
-7. [옆집사는 ‘함수’형 탐방기](https://tv.naver.com/v/8629615/list/267189)
+7. ✅[옆집사는 ‘함수’형 탐방기](https://tv.naver.com/v/8629615/list/267189)
 8. [CocoaPods 제거를 통한 블로그 빌드 속도 개선](https://tv.naver.com/v/9501931/list/267189)
 9. [Multiplatform Architecture RIBs in Swift](https://tv.naver.com/v/9502363/list/267189)
 10. [당장 적용하는 SwiftUI의 아이디어](https://tv.naver.com/v/15314288/list/267189)
-11. [RxSwift, Combine 둘 중에 어느 것을 공부해야 할까요](https://tv.naver.com/v/19397553/list/267189)
+11. ✅[RxSwift, Combine 둘 중에 어느 것을 공부해야 할까요](https://tv.naver.com/v/19397553/list/267189)
 12. [SwiftUI + UIKit + RxSwift + Combine + DDD = ?](https://tv.naver.com/v/19397822/list/267189)
 
 - [ ] SwiftUI 클론코딩
