@@ -26,7 +26,7 @@
 | [제이 beginin15](https://github.com/beginin15) |✔|✔|✔|✔|||| 57% |
 | [솔라 blossun](https://github.com/blossun) |✔|✔|✔|✔|||| 57% |
 | [푸글 suhyunsim](https://github.com/suhyunsim) |✔|✔|✔|✔|||| 57% |
-| [레나 dev-Lena](https://github.com/dev-Lena) |✔|✔|✔|✔|-|-|-| 57%% |
+| [레나 dev-Lena](https://github.com/dev-Lena) |✔|✔|✔|✔|-|-|-| 57% |
 
 
 ### 2기
