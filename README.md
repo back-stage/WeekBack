@@ -23,9 +23,9 @@
 
 | 참여자 | 1주 차 | 2주 차 | 3주 차 | 4주 차 | 5주 차 | 6주 차 | 7주 차 | 8주 차 | 참석률 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| [제이 beginin15](https://github.com/beginin15) |✔|||||||| 13% |
-| [솔라 blossun](https://github.com/blossun) |✔|||||||| 13% |
-| [푸글 suhyunsim](https://github.com/suhyunsim) |✔|||||||| 13% |
+| [제이 beginin15](https://github.com/beginin15) |✔|✔|✔|||||| 38% |
+| [솔라 blossun](https://github.com/blossun) |✔|✔|✔|||||| 38% |
+| [푸글 suhyunsim](https://github.com/suhyunsim) |✔|✔|✔|||||| 38% |
 
 <br>
 
